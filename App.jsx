@@ -271,8 +271,8 @@ function BilanViewer({ prev, rev, real, details, onDownload, onClose }) {
 
         {/* Légende */}
         <div style={{ background:'#F0F7FF', padding:'10px 28px', display:'flex', flexWrap:'wrap', gap:16, fontSize:11, color:C.blue, borderBottom:`1px solid ${C.g3}` }}>
-          <span><strong>A</strong> = Prévu (prévisions initiales)</span>
-          <span><strong>B</strong> = Révisé S1 (mi-année)</span>
+          <span><strong>A</strong> = Pré
+            sé S1 (mi-année)</span>
           <span><strong>C</strong> = Réalisé (bilan annuel)</span>
           <span><strong>Écart 1</strong> = C − A (vs Objectif initial)</span>
           <span><strong>Écart 2</strong> = C − B (vs Révision S1)</span>
@@ -478,7 +478,6 @@ export default function App() {
         {/* Placeholder logos */}
         <div style={{ display:'inline-block', background:'rgba(255,255,255,.07)', border:'1px dashed rgba(255,255,255,.15)', borderRadius:8, padding:'8px 20px', marginBottom:4 }}>
           <span style={{ fontSize:11, color:'rgba(255,255,255,.35)', fontStyle:'italic' }}>
-            ← Insérer logos UM6P / GSMI ici (remplacer ce bloc dans App.jsx ligne ~360)
           </span>
         </div>
       </div>
