@@ -475,7 +475,6 @@ export default function App() {
         <p style={{ color:'#8899BB', fontSize:14, margin:'0 0 28px', maxWidth:460, marginLeft:'auto', marginRight:'auto', lineHeight:1.6 }}>
           Outil de pilotage annuel des activités académiques et de recherche
         </p>
-        {/* Placeholder logos */}
         <div style={{ display:'inline-block', background:'rgba(255,255,255,.07)', border:'1px dashed rgba(255,255,255,.15)', borderRadius:8, padding:'8px 20px', marginBottom:4 }}>
           <span style={{ fontSize:11, color:'rgba(255,255,255,.35)', fontStyle:'italic' }}>
           </span>
